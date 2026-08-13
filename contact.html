@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Horizon Studios</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+
+<a href="index.html" class="brand">
+<img src="assets/logo.png" alt="Horizon Studios">
+<span>Horizon <b>Studios</b></span>
+</a>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<div class="nav-links" id="navLinks">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="packages.html">Packages</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="about.html">About</a>
+<a class="active" href="contact.html">Contact</a>
+<a class="nav-discord" href="https://discord.gg/guRayudfnf" target="_blank">Discord ↗</a>
+</div>
+
+</nav>
+</header>
+
+
+<main>
+
+<section class="page-header">
+<div class="eyebrow">CONTACT HORIZON</div>
+<h1>Let's build <span>something great.</span></h1>
+<p>
+Have a project in mind? Tell us what you're working on
+or join our Discord and open a ticket.
+</p>
+</section>
+
+
+<section class="contact-layout">
+
+<div class="contact-info">
+
+<div class="contact-icon">◈</div>
+
+<h2>Start on Discord</h2>
+
+<p>
+The fastest way to contact Horizon Studios is through
+our Discord community.
+</p>
+
+<a href="https://discord.gg/guRayudfnf"
+target="_blank"
+class="btn primary">
+Join Horizon Discord ↗
+</a>
+
+<div class="discord-address">
+discord.gg/guRayudfnf
+</div>
+
+</div>
+
+
+<div class="contact-form">
+
+<h2>Project Enquiry</h2>
+
+<form onsubmit="sendEnquiry(event)">
+
+<label>
+Your Name
+<input id="name" type="text" required placeholder="Your name">
+</label>
+
+<label>
+Email
+<input id="email" type="email" required placeholder="you@example.com">
+</label>
+
+<label>
+Service
+<select id="service">
+
+<option>Discord Management</option>
+<option>Minecraft Development</option>
+<option>SMP Development</option>
+<option>Content Creation</option>
+<option>Video Editing</option>
+<option>Thumbnail Design</option>
+<option>Branding & Design</option>
+<option>Web Development</option>
+<option>Other</option>
+
+</select>
+</label>
+
+<label>
+Project Details
+<textarea id="details" rows="7" required
+placeholder="Tell us about your project..."></textarea>
+</label>
+
+<button type="submit" class="btn primary">
+Send Enquiry ↗
+</button>
+
+<p class="form-note">
+This button will open your email application.
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+<div class="footer-inner">
+<a href="index.html" class="brand">
+<img src="assets/logo.png" alt="Horizon Studios">
+<span>Horizon <b>Studios</b></span>
+</a>
+
+<div class="footer-links">
+<a href="services.html">Services</a>
+<a href="packages.html">Packages</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<p>© 2026 Horizon Studios</p>
+</div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
